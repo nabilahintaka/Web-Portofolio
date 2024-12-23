@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import simkerma from "../../Assets/Projects/simkerma.png";
+import PostgreSQL from "../../Assets/Projects/PostgreSQL.png";
 import schatz from "../../Assets/Projects/schatz.png";
-import zshort from "../../Assets/Projects/zshort.png";
+import BigQuery from "../../Assets/Projects/BigQuery.png";
 import elib from "../../Assets/Projects/elib.png";
 import medivent from "../../Assets/Projects/medivent.png";
 import autoattendance from "../../Assets/Projects/autoattendance.png";
@@ -25,27 +25,27 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={simkerma}
+              imgPath={PostgreSQL}
               isBlog={false}
-              title="SIMKERMA - Sistem Informasi Kerjasama"
-              description="SIMKERMA stand for Sistem Informasi Kerjasama. Build with Laravel 8, Postgress SQL. its used for managing, tracking, archiving, collaboration between campus and industries or other."
-              ghLink="https://github.com/Schutz3"
-              demoLink="https://docker-simkerma.scz.my.id/"
+              title="PostgreSQL - Movies Data"
+              description="Movie data that has been normalized to 3NF and perform some data testing."
+              ghLink="https://github.com/nabilahintaka/PostgreSQL-Portofolio"
+              //demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={zshort}
+              imgPath={BigQuery}
               isBlog={false}
-              title="ZShort - Shorten Your URL"
-              description="A simple URL shortening service built with Next js, Firebase Store, Firebase Auth. Hosted on vercel. This project helps to shorten long URLs and save them for easy sharing."
-              ghLink="https://github.com/Schutz3"
-              demoLink="https://a.ngel.my.id/"
+              title="BigQuery - GoBike"
+              description="San Francisco Ford GoBike Share data set from Google BigQuery"
+              ghLink="https://github.com/nabilahintaka/BigQuery-Portofolio"
+              //demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mail4spam}
               isBlog={false}
@@ -54,9 +54,9 @@ function Projects() {
               ghLink="https://github.com/Schutz3"
               demoLink="https://mail.scz.my.id/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={schatz}
               isBlog={false}
@@ -65,9 +65,9 @@ function Projects() {
               ghLink="https://github.com/Schutz3"
               demoLink="https://chatz.scz.my.id/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={autoattendance}
               isBlog={false}
@@ -76,9 +76,9 @@ function Projects() {
               ghLink="https://github.com/Schutz3"
               // demoLink="" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={medivent}
               isBlog={false}
@@ -87,8 +87,8 @@ function Projects() {
               ghLink="https://github.com/Schutz3/MedIventApps"
               // demoLink=""      <--------Please include a demo link here 
             />
-          </Col>
-          <Col md={4} className="project-card">
+          </Col> */}
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elib}
               isBlog={false}
@@ -97,7 +97,7 @@ function Projects() {
               ghLink="https://github.com/Schutz3/ezlibrary"
               // demoLink="" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
