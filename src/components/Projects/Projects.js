@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import PostgreSQL from "../../Assets/Projects/PostgreSQL.png";
+import postgreSQL from "../../Assets/Projects/postgreSQL.png";
 import schatz from "../../Assets/Projects/schatz.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import elib from "../../Assets/Projects/elib.png";
@@ -25,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={PostgreSQL}
+              imgPath={postgreSQL}
               isBlog={false}
               title="PostgreSQL - Movies Data"
               description="Movie data that has been normalized to 3NF and perform some data testing."
