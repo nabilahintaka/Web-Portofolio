@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import postgreSQL from "../../Assets/Projects/postgreSQL.png";
-import schatz from "../../Assets/Projects/schatz.png";
+import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import elib from "../../Assets/Projects/elib.png";
 import medivent from "../../Assets/Projects/medivent.png";
@@ -45,16 +45,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mail4spam}
+              imgPath={Python}
               isBlog={false}
-              title="Mail4Spam - Your place for save spam emails"
-              description="Mail4Spam is a web application that allows users to save and archive spam emails from their inbox. It uses the cloudflare workers protocol to fetch emails and store to mongodb and provides an easy-to-use interface. Build with Vite, React, Express, MongoDB, DaisyUI, Socket.io"
-              ghLink="https://github.com/Schutz3"
-              demoLink="https://mail.scz.my.id/"              
+              title="Python - Shopping Cart"
+              description="a simple shopping cart program that allows users to add, remove, and view items in their shopping cart."
+              ghLink="https://github.com/nabilahintaka/Python-Portofolio"
+              demoLink=""              
             />
-          </Col> */}
+          </Col> 
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
