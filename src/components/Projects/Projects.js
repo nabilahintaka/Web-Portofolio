@@ -28,7 +28,7 @@ function Projects() {
               imgPath={postgreSQL}
               isBlog={false}
               title="PostgreSQL - Movies Data"
-              description="Movie data that has been normalized to 3NF and perform some data testing."
+              description=<br></br>"Movie data that has been normalized to 3NF and perform some data testing."
               ghLink="https://github.com/nabilahintaka/PostgreSQL-Portofolio"
               //demoLink=""
             />
