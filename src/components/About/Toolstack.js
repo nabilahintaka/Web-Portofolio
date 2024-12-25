@@ -6,7 +6,7 @@ import {
   SiGooglebigquery,
   SiTableau,
   SiLooker,
-  SiFigma
+  SiFigma,
 
   SiPostman,
   SiSlack,
