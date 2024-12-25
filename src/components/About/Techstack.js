@@ -7,8 +7,8 @@ import {
   DiCss3,
   DiJavascript1,
   DiJava,
+
   DiGit,
-  
   DiReact,
   DiNodejs,
   DiMongodb,
