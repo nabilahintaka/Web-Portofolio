@@ -37,7 +37,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-      
       <Col xs={4} md={2} className="tech-icons">
        <DiJavascript1 />
       </Col>
@@ -50,7 +49,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
-      
     </Row>
   );
 }
