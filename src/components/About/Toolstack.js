@@ -2,9 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
+  SiVercel,
+  SiGooglebigquery,
+  SiTableau,
+  SiLooker,
+  SiFigma
+
   SiPostman,
   SiSlack,
-  SiVercel,
   SiDebian,
   SiWindows11,
   SiDocker,
@@ -22,19 +27,19 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows11 />
+        <SiGooglebigquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDebian />
+        <SiTableau />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiLooker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <SiFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJenkins />
+        < />
       </Col> 
     </Row>
   );
