@@ -25,9 +25,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGooglebigquery />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiTableau />
       </Col>
