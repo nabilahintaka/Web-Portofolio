@@ -30,12 +30,12 @@ function Home2() {
               <br />
               My field of interest includes &nbsp;
               <i>
-                <b className="purple">Business Analysis, and Product Management </b>
+                <b className="purple">Business Analysis and Product Management </b>
               </i>
               <br />
               <br />
- typing, Data Cleansing and Data Visualization </b> 
-              that allows me to identify trends, insights that inform my design decisions, research in competitive analy             I've dealt with <b className="purple">User Research, Protosis and monitoring
+              I've dealt with <b className="purple">User Research, Prototyping, Data Cleansing and Data Visualization </b>  
+              that allows me to identify trends, insights that inform my design decisions, research in competitive analysis and monitoring
               <br />
               <br />
               I have a strong ability to learn, can work in a team, and possess problem-solving skills
