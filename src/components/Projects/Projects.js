@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import postgreSQL from "../../Assets/Projects/postgreSQL.png";
 import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
-import elib from "../../Assets/Projects/elib.png";
+import WebScrap from "../../Assets/Projects/WebScrap.png";
 import medivent from "../../Assets/Projects/medivent.png";
 import autoattendance from "../../Assets/Projects/autoattendance.png";
 import mail4spam from "../../Assets/Projects/mail4spam.png";
@@ -56,16 +56,16 @@ function Projects() {
             />
           </Col> 
 
-          {/* <Col md={4} className="project-card">
+          /* <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={schatz}
+              imgPath={WebScrap}
               isBlog={false}
-              title="sChatz - Simple Realtime Chat App"
-              description="Simple Realtime chat app built with React, Vite, Express, DaisyUI and MongoDB. It used socket.io to implement realtime comunication. Hosted on my potato home server. "
-              ghLink="https://github.com/Schutz3"
-              demoLink="https://chatz.scz.my.id/"
+              title="Web Scraping"
+              description="Data collection using Web Scraping to analyze product sales on e-commerce Tokopedia"
+              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio"
+              demoLink=""
             />
-          </Col> */}
+          </Col> */
 
           {/* <Col md={4} className="project-card">
             <ProjectCard

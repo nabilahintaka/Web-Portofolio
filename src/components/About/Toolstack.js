@@ -18,14 +18,16 @@ import {
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglebigquery />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTableau />
       </Col>
