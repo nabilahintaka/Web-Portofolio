@@ -6,9 +6,9 @@ import postgreSQL from "../../Assets/Projects/postgreSQL.png";
 import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
-import medivent from "../../Assets/Projects/medivent.png";
-import autoattendance from "../../Assets/Projects/autoattendance.png";
-import mail4spam from "../../Assets/Projects/mail4spam.png";
+// import medivent from "../../Assets/Projects/medivent.png";
+// import autoattendance from "../../Assets/Projects/autoattendance.png";
+// import mail4spam from "../../Assets/Projects/mail4spam.png";
 
 
 function Projects() {
