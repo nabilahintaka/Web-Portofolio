@@ -56,7 +56,7 @@ function Projects() {
             />
           </Col> 
 
-          /* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={WebScrap}
               isBlog={false}
@@ -65,7 +65,7 @@ function Projects() {
               ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio"
               demoLink=""
             />
-          </Col> */
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -74,7 +74,7 @@ function Projects() {
               title="Discord Bot"
               description="A discord bot for cek steam and game. I build this bot for monitoring steam status and game which is FiveM monitoring log connection"
               ghLink="https://github.com/slizea/DiscordBot"
-              // demoLink="" <--------Please include a demo link here
+              demoLink="" 
             />
           </Col>
 
@@ -83,11 +83,12 @@ function Projects() {
               imgPath={discord}
               isBlog={false}
               title="Discord Bot"
-              description="A discord bot for reminder user todo list, user can uses command for CRUD"
+              description="A simple CRUD discord bot for reminder, user can make a todo list"
               ghLink="https://github.com/nabilahintaka/ReminderBot"
-              // demoLink=""      <--------Please include a demo link here 
+              demoLink=""
             />
           </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elib}
