@@ -6,7 +6,7 @@ import postgreSQL from "../../Assets/Projects/postgreSQL.png";
 import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
-// import medivent from "../../Assets/Projects/medivent.png";
+import discord from "../../Assets/Projects/discord.png";
 // import autoattendance from "../../Assets/Projects/autoattendance.png";
 // import mail4spam from "../../Assets/Projects/mail4spam.png";
 
@@ -67,16 +67,16 @@ function Projects() {
             />
           </Col> */
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={autoattendance}
+              imgPath={discord}
               isBlog={false}
-              title="A telegram bot for auto attendance"
-              description="Telegram bot for do automatic task (like login, click buttons etc) on specified time or day. Written in Python using Selenium Webdriver. I build this bot because me & my friends always forgot to submit attendance (bcz im on the way to campus)"
-              ghLink="https://github.com/Schutz3"
+              title="Discord Bot"
+              description="A discord bot for cek steam and game. I build this bot for monitoring game which is FiveM monitoring log connection"
+              ghLink="https://github.com/slizea/DiscordBot"
               // demoLink="" <--------Please include a demo link here
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
