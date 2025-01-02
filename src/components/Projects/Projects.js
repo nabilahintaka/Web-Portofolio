@@ -71,8 +71,8 @@ function Projects() {
             <ProjectCard
               imgPath={discord}
               isBlog={false}
-              title="Discord Bot"
-              description="A discord bot for cek steam and game. I build this bot for monitoring steam status and game which is FiveM monitoring log connection"
+              title="Monitoring Bot"
+              description="A discord bot for monitoring. I build this bot for monitoring steam status and game which is FiveM monitoring log connection built with python"
               ghLink="https://github.com/slizea/DiscordBot"
               demoLink="" 
             />
@@ -82,8 +82,8 @@ function Projects() {
             <ProjectCard
               imgPath={discord}
               isBlog={false}
-              title="Discord Bot"
-              description="A simple CRUD discord bot for reminder, user can make a todo list"
+              title="ToDo Bot"
+              description="A simple CRUD discord bot for reminder, user can add, remove, view a todo list and built with Python"
               ghLink="https://github.com/nabilahintaka/ReminderBot"
               demoLink=""
             />
