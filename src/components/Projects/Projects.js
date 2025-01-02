@@ -72,7 +72,7 @@ function Projects() {
               imgPath={discord}
               isBlog={false}
               title="Discord Bot"
-              description="A discord bot for cek steam and game. I build this bot for monitoring game which is FiveM monitoring log connection"
+              description="A discord bot for cek steam and game. I build this bot for monitoring steam status and game which is FiveM monitoring log connection"
               ghLink="https://github.com/slizea/DiscordBot"
               // demoLink="" <--------Please include a demo link here
             />
