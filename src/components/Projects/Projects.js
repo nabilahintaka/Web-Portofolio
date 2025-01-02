@@ -78,16 +78,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={medivent}
+              imgPath={discord}
               isBlog={false}
-              title="Simple CRUD app For Medicine Inventory"
-              description="Build using native java in android studio. it store the data on Firebase Firestore. This a my university project/task."
-              ghLink="https://github.com/Schutz3/MedIventApps"
+              title="Discord Bot"
+              description="A discord bot for reminder user todo list, user can uses command for CRUD"
+              ghLink="https://github.com/nabilahintaka/ReminderBot"
               // demoLink=""      <--------Please include a demo link here 
             />
-          </Col> */}
+          </Col>
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elib}
