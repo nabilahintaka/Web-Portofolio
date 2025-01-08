@@ -26,9 +26,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Enjoying my favorite songs 
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Doing some relaxing games
+            </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(111, 197, 247)" }}>
             "Experience is the name everyone gives to their mistakes"{" "}
           </p>
           <footer className="blockquote-footer">Oscar Wilde</footer>
