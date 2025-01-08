@@ -7,9 +7,6 @@ import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
 import discord from "../../Assets/Projects/discord.png";
-// import autoattendance from "../../Assets/Projects/autoattendance.png";
-// import mail4spam from "../../Assets/Projects/mail4spam.png";
-
 
 function Projects() {
   return (
@@ -66,39 +63,6 @@ function Projects() {
               demoLink=""
             />
           </Col> 
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discord}
-              isBlog={false}
-              title="Monitoring Bot"
-              description="A discord bot for monitoring. I build this bot for monitoring steam status and game which is FiveM monitoring log connection built with python"
-              ghLink="https://github.com/slizea/DiscordBot"
-              demoLink="" 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discord}
-              isBlog={false}
-              title="ToDo Bot"
-              description="A simple CRUD discord bot for reminder, user can add, remove, view a todo list and built with Python"
-              ghLink="https://github.com/nabilahintaka/ReminderBot"
-              demoLink=""
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={elib}
-              isBlog={false}
-              title="Simple CRUD app For E-Library"
-              description="Simple CRUD app For E-Library built with nativ PHP and MySQL. It only store the string data not the actual file, for the actual file is stored on google drive. I also build this app with another language, such as Java (JSP, JSF, Android). This is my university project/task."
-              ghLink="https://github.com/Schutz3/ezlibrary"
-              // demoLink="" <--------Please include a demo link here
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
