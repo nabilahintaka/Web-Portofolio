@@ -7,6 +7,7 @@ import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
 import bookshelf from "../../Assets/Projects/bookshelf.png";
+import dnike from "../../Assets/Projects/dnike.png";
 
 function Projects() {
   return (
@@ -69,9 +70,20 @@ function Projects() {
               imgPath={bookshelf}
               isBlog={false}
               title="Bookshelf Apps"
-              description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
+              description="Bookshelf Apps is a book data storage website that can store, move and delete data using a web storage. This is a Submission for Dicoding Course"
               ghLink="https://github.com/nabilahintaka/BookshelfApps"
               demoLink="https://bookshelf.mizea.my.id/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dnike}
+              isBlog={false}
+              title="DNike"
+              description="DNike is a website store that sell a shoes, users can view products, buy and give testimonials. This is a project that i created for University assignment"
+              ghLink="https://github.com/nabilahintaka/DNike"
+              demoLink="https://dnike.mizea.my.id/"
             />
           </Col>
         </Row>
