@@ -6,7 +6,7 @@ import postgreSQL from "../../Assets/Projects/postgreSQL.png";
 import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
-import discord from "../../Assets/Projects/discord.png";
+import bookshelf from "../../Assets/Projects/bookshelf.png";
 
 function Projects() {
   return (
@@ -63,10 +63,10 @@ function Projects() {
               demoLink=""
             />
           </Col> 
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={elib}
+              imgPath={bookshelf}
               isBlog={false}
               title="Bookshelf Apps"
               description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
