@@ -63,6 +63,17 @@ function Projects() {
               demoLink=""
             />
           </Col> 
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={elib}
+              isBlog={false}
+              title="Bookshelf Apps"
+              description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
+              ghLink="https://github.com/nabilahintaka/BookshelfApps"
+              demoLink="https://bookshelf.mizea.my.id/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
