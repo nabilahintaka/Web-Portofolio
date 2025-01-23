@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillDiscord,
+  AiOutlineDiscord,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
 
@@ -23,16 +23,16 @@ function Footer() {
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
 
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
                 href="https://discord.gg/BuKXD5MM"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillDiscord />
+                <AiOutlineDiscord />
               </a>
-            </li> */}
+            </li>
             
             {/* <li className="social-icons">
               <a
