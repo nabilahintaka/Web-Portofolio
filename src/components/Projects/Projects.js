@@ -67,6 +67,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={WebScrap}
+              isBlog={false}
+              title="Web Scraping"
+              description="Data collection using Web Scraping to analyze skincare sales from female daily "
+              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio2"
+              demoLink=""
+            />
+          </Col> 
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bookshelf}
               isBlog={false}
               title="Bookshelf Apps"
@@ -85,7 +96,7 @@ function Projects() {
               ghLink="https://github.com/nabilahintaka/DNike"
               demoLink="https://dnike.mizea.my.id/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
