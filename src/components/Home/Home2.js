@@ -58,7 +58,7 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-            <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://discord.gg/BuKXD5MM>"
                   target="_blank"
@@ -77,8 +77,8 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li> */}
-              {/* <li className="social-icons">
+              </li> */
+              /* <li className="social-icons">
               <a
                 href=""
                 target="_blank" 
@@ -97,8 +97,8 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>*/}
-              {/* <li className="social-icons">
+              </li>*/
+              /* <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/nabilahintaka/"
                   target="_blank"
@@ -107,17 +107,17 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li> */}
-              {/* <li className="social-icons"> 
+              </li> */
+              /* <li className="social-icons"> 
                 <a
                   href="https://www.instagram.com/nabilahintaka"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram /> */}
+                  <AiFillInstagram /> 
                 </a>
-              </li>
+              </li>*/}
             </ul>
           </Col>
         </Row>
