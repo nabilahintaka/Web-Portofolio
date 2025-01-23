@@ -7,6 +7,7 @@ import {
   SiTableau,
   SiLooker,
   SiFigma,
+  SiGooglebigquery,
 
   SiPostman,
   SiSlack,
@@ -37,6 +38,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglebigquery />
+      </Col>
+
     </Row>
   );
 }
