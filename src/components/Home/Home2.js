@@ -8,7 +8,7 @@ import {
   AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
+import { FaLinkedinIn, FaHackerrank, FaDiscord } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -68,6 +68,18 @@ function Home2() {
                   <AiOutlineMail />
                 </a>
               </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://discord.gg/XSM6fEaf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaDiscord />
+                </a>
+              </li>
+
               {/* <li className="social-icons">
                 <a
                   href="https://github.com/nabilahintaka"
@@ -77,8 +89,8 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li> */
-              /* <li className="social-icons">
+              </li>
+              <li className="social-icons">
               <a
                 href=""
                 target="_blank" 
@@ -97,8 +109,8 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>*/
-              /* <li className="social-icons">
+              </li>
+              <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/nabilahintaka/"
                   target="_blank"
@@ -108,7 +120,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>*/}
-              /* <li className="social-icons"> 
+              <li className="social-icons"> 
                 <a
                   href="https://www.instagram.com/mizeaaaa"
                   target="_blank"
