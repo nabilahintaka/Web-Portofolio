@@ -22,6 +22,7 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+
             <li className="social-icons">
               <a
                 href="https://discord.gg/BuKXD5MM"
@@ -32,6 +33,7 @@ function Footer() {
                 <AiFillDiscord />
               </a>
             </li>
+            
             {/* <li className="social-icons">
               <a
                 href="https://github.com/nabilahintaka"
@@ -41,8 +43,8 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li> */}
-            {/*<li className="social-icons">
+            </li> */
+            /*<li className="social-icons">
               <a
                 href=""
                 style={{ color: "white" }}
@@ -81,7 +83,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>*/
+            </li>*/}
           </ul>
         </Col>
       </Row>
