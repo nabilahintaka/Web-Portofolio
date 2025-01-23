@@ -25,23 +25,23 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="mailto:zea@mizea.my.id"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineMail />
-              </a>
-            </li>
-
-            <li className="social-icons">
-              <a
                 href="https://discord.gg/XSM6fEaf"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaDiscord />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="mailto:zea@mizea.my.id"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
               </a>
             </li>
             
