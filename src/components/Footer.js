@@ -4,7 +4,6 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiOutlineDiscord,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
 
