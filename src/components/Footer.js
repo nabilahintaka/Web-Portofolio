@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillDiscord,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
 
@@ -23,6 +24,16 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
+                href="https://discord.gg/BuKXD5MM"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillDiscord />
+              </a>
+            </li>
+            {/* <li className="social-icons">
+              <a
                 href="https://github.com/nabilahintaka"
                 style={{ color: "white" }}
                 target="_blank" 
@@ -30,7 +41,7 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li>
+            </li> */}
             {/*<li className="social-icons">
               <a
                 href=""
@@ -51,7 +62,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li>*/
-            <li className="social-icons">
+            /*<li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/nabilahintaka/"
                 style={{ color: "white" }}
@@ -70,7 +81,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li>*/
           </ul>
         </Col>
       </Row>
