@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="PostgreSQL - Movies Data"
               description="Movie data that has been normalized to 3NF and perform some data testing."
-              ghLink="https://github.com/nabilahintaka/PostgreSQL-Portofolio"
+              ghLink="https://github.com/mizeaa/PostgreSQL-Portofolio"
               //demoLink=""
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="BigQuery - GoBike"
               description="San Francisco Ford GoBike Share data set from Google BigQuery"
-              ghLink="https://github.com/nabilahintaka/BigQuery-Portofolio"
+              ghLink="https://github.com/mizeaa/BigQuery-Portofolio"
               //demoLink=""
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Python - Shopping Cart"
               description="a simple shopping cart program that allows users to add, remove, and view items in their shopping cart."
-              ghLink="https://github.com/nabilahintaka/Python-Portofolio"
+              ghLink="https://github.com/mizeaa/Python-Portofolio"
               demoLink=""              
             />
           </Col> 
@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="Web Scraping"
               description="Data collection using Web Scraping to analyze product sales on e-commerce Tokopedia"
-              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio"
+              ghLink="https://github.com/mizeaa/Web-Scraping-Portofolio"
               demoLink=""
             />
           </Col> 
@@ -71,7 +71,7 @@ function Projects() {
               isBlog={false}
               title="Web Scraping"
               description="Data collection using Web Scraping to analyze skincare sales from female daily "
-              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio2"
+              ghLink="https://github.com/mizeaa/Web-Scraping-Portofolio2"
               demoLink=""
             />
           </Col> 
@@ -82,7 +82,7 @@ function Projects() {
               isBlog={false}
               title="Bookshelf Apps"
               description="Bookshelf Apps is a book data storage website that can store, move and delete data using a web storage. This is a Submission for Dicoding Course"
-              ghLink="https://github.com/nabilahintaka/BookshelfApps"
+              ghLink="https://github.com/mizeaa/BookshelfApps"
               demoLink="https://bookshelf.mizea.my.id/"
             />
           </Col>
@@ -93,7 +93,7 @@ function Projects() {
               isBlog={false}
               title="DNike"
               description="DNike is a website store that sell a shoes, users can view products, buy and give testimonials. This is a project that i created for University assignment"
-              ghLink="https://github.com/nabilahintaka/DNike"
+              ghLink="https://github.com/mizeaa/DNike"
               demoLink="https://dnike.mizea.my.id/"
             />
           </Col> */}

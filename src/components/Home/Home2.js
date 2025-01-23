@@ -80,9 +80,9 @@ function Home2() {
                 </a>
               </li>
 
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
-                  href="https://github.com/nabilahintaka"
+                  href="https://github.com/mizeaa"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,7 +90,8 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+
+              {/* <li className="social-icons">
               <a
                 href=""
                 target="_blank" 
@@ -119,7 +120,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>*/}
+              </li> */}
               <li className="social-icons"> 
                 <a
                   href="https://www.instagram.com/mizeaaaa"
