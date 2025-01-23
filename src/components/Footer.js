@@ -6,7 +6,7 @@ import {
   AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
+import { FaLinkedinIn, FaHackerrank, FaDiscord } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -33,6 +33,28 @@ function Footer() {
                 <AiOutlineMail />
               </a>
             </li>
+
+            <li className="social-icons">
+              <a
+                href="https://discord.gg/XSM6fEaf"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaDiscord />
+              </a>
+            </li>
+            
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/mizeaaaa"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
             
             {/* <li className="social-icons">
               <a
@@ -43,8 +65,8 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li> */
-            /*<li className="social-icons">
+            </li>
+            <li className="social-icons">
               <a
                 href=""
                 style={{ color: "white" }}
@@ -63,7 +85,7 @@ function Footer() {
               >
                 <AiOutlineTwitter />
               </a>
-            </li>*/
+            </li>
             /*<li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/nabilahintaka/"
@@ -72,16 +94,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li> }
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/nabilahintaka"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>*/}
           </ul>
