@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiVercel,
-  SiGooglebigquery,
   SiTableau,
   SiLooker,
   SiFigma,
@@ -34,9 +33,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGooglebigquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
