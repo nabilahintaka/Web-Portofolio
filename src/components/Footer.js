@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
 
@@ -22,16 +23,16 @@ function Footer() {
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
 
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="discord.gg/BuKXD5MM"
+                href="mailto:zea@mizea.my.id"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineDiscord />
+                <AiOutlineMail />
               </a>
-            </li> */}
+            </li>
             
             {/* <li className="social-icons">
               <a
