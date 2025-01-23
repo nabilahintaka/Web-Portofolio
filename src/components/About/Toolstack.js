@@ -36,6 +36,9 @@ function Toolstack() {
         <SiFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGooglebigquery />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
 
