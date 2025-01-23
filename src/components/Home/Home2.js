@@ -107,17 +107,17 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li> */
+              </li>*/}
               /* <li className="social-icons"> 
                 <a
-                  href="https://www.instagram.com/nabilahintaka"
+                  href="https://www.instagram.com/mizeaaaa"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram /> 
                 </a>
-              </li>*/}
+              </li>
             </ul>
           </Col>
         </Row>
