@@ -6,7 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiFillDiscord,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaHackerrank } from "react-icons/fa";
 
@@ -60,12 +60,12 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://discord.gg/BuKXD5MM>"
+                  href="mailto:zea@mizea.my.id"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillDiscord />
+                  <AiOutlineMail />
                 </a>
               </li>
               {/* <li className="social-icons">
