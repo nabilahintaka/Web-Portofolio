@@ -7,6 +7,8 @@ import {
   SiLooker,
   SiFigma,
   SiGithub,
+  SiTrello,
+  SiNotion,
 
   SiPostman,
   SiSlack,
@@ -33,6 +35,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrello  />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNotion/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
