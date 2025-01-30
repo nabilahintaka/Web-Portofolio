@@ -80,7 +80,7 @@ function Home2() {
                 </a>
               </li>
 
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://github.com/mizeaa"
                   target="_blank"
@@ -89,7 +89,7 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> */}
 
               {/* <li className="social-icons">
               <a
