@@ -76,7 +76,7 @@ function Projects() {
             />
           </Col> 
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bookshelf}
               isBlog={false}
@@ -87,7 +87,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dnike}
               isBlog={false}
