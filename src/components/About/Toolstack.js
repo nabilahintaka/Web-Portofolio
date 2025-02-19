@@ -17,6 +17,7 @@ import {
   SiDocker,
   SiJenkins,
 } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -45,6 +46,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker />
+      </Col>
+
 
     </Row>
   );

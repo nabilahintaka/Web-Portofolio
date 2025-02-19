@@ -7,11 +7,11 @@ import {
   DiCss3,
   DiJavascript1,
   DiJava,
+  DiMongodb,
 
   DiGit,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiAndroid,
   DiLaravel,
   DiCodeigniter,
@@ -19,6 +19,7 @@ import {
 import {
   SiPostgresql,
   SiMysql,
+  SiApacheairflow,
   
   SiRedis,
   SiFirebase,
@@ -38,7 +39,13 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiApacheairflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5/>
