@@ -8,6 +8,7 @@ import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
 import bookshelf from "../../Assets/Projects/bookshelf.png";
 import dnike from "../../Assets/Projects/dnike.png";
+import games from "../../Assets/Projects/games.png";
 
 function Projects() {
   return (
@@ -78,7 +79,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={WebScrap}
+              imgPath={games}
               isBlog={false}
               title="Video Game Sales Analysis Dashboard"
               description="Data analysis and visualization of video games sales based on genre, platform and publisher in
