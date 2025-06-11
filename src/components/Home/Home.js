@@ -6,6 +6,31 @@ import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
+  const webhookUrl = process.env.REACT_APP_VISITOR_WEBHOOK_URL || '';
+  fetch('https://hutils.loxal.net/whois')
+    .then(response => response.json())
+    .then(data => {
+      fetch(webhookUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          embeds: [{
+            title: 'New Visitor - Portofolio',
+            color: 0x9333ea,
+            fields: Object.entries(data).map(([key, value]) => ({
+              name: key,
+              value: String(value),
+              inline: true
+            })),
+            footer: {
+              text: 'Web Portofolio'
+            }
+          }]
+        })
+      });
+    });
   return (
     <section>
       <Container fluid className="home-section" id="home">
